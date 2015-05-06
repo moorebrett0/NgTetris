@@ -1,10 +1,14 @@
+<doctype html>
 <html>
-    <head>
-        <script src="lib/angular.js"></script>
-        <script src="lib/angular-ui-router.js"></script>
-        <title></title>
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <title>Tetris</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body ng-app="tetris">
+    <!-- header -->
+    <div class="container" ng-include="'views/main.html'"></div>
+    <!-- script tags -->
+    <script src="lib/angular.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
 </html>
